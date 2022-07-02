@@ -16,6 +16,11 @@ export interface Comentario {
   fecha: string;
 }
 
+export interface Periodo {
+  id?: number;
+  descripcion: string;
+}
+
 export interface Pelicula {
   id: number;
   titulo: string;
@@ -25,6 +30,8 @@ export interface Pelicula {
   peliculasPoster: PeliculaPoster[];
   videos?: Video[];
   comentarios?: Comentario[];
+  periodos?: Periodo[];
+  peliculaPeriodosPrecio: any[];
 }
 
 export interface PeliculaBusquedaRequest {
