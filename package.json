@@ -9,16 +9,32 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.88",
+    "@mui/material": "^5.8.6",
+    "axios": "^0.27.2",
+    "axios-observable": "^1.5.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jsx-a11y": "^6.6.0",
+    "eslint-plugin-prettier": "^4.1.0",
     "next": "12.2.0",
+    "notistack": "^2.0.5",
+    "prettier": "^2.7.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-swipeable-views": "^0.14.0",
+    "rxjs": "^7.5.5"
   },
   "devDependencies": {
     "@types/node": "18.0.0",
     "@types/react": "18.0.14",
     "@types/react-dom": "18.0.5",
+    "@types/react-swipeable-views": "^0.13.1",
+    "@types/react-swipeable-views-utils": "^0.13.3",
     "eslint": "8.18.0",
-    "eslint-config-next": "12.2.0",
+    "eslint-config-next": "^12.2.0",
     "typescript": "4.7.4"
   }
 }
